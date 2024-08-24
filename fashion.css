@@ -172,7 +172,7 @@ Span {
     margin-left: 2px;
 }
 
-/** Box 8 **/
+/** last Box 8 **/
 
 .nav-Book  {
    font-size: 0.80rem;
@@ -190,18 +190,6 @@ Span {
     align-items: center;
     size :1rem;
     margin-left: 2px;
-}
-
-/** last header Box 9 **/
-
-.nav-cart i {
-    font-size: 30px;
-}
-
-.my-cart {
-    font-size: 0.85rem;
-    font-weight: 700;
-    text-align: center;
 }
 
 /** Panel **/
@@ -353,7 +341,7 @@ footer {
 
 .foot-panell {
     background-color: #37475a;
-    color: solid white;
+    color: #ffffff;
     height: 50px;
     display: flex;
     align-items: center;
@@ -413,4 +401,38 @@ ul a {
 .copyright {
    
     padding-top: 5px;
+}
+
+@media(max-width : 1200px){
+    html, body{
+    
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-size: 55%;
+        
+        }
+    .navbar{
+        width: auto;
+        height: auto;
+        font-size: auto;
+        overflow: hidden;
+    }
+    .showData{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        position: fixed;
+        top: 55px;
+        background-color : rgba(0, 0, 0, 0.1);
+        width: 98%;
+        height: 50px;
+        text-align: center;
+        padding: 0px;
+        gap: 25px;
+    }
+    
 }
